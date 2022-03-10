@@ -3,7 +3,6 @@ from django.utils.translation import get_language_from_request
 from django.views.generic import ListView
 from django.views.generic.edit import FormMixin
 
-from aldryn_common.paginator import DiggPaginator
 from haystack.forms import ModelSearchForm
 from haystack.query import SearchQuerySet
 
@@ -11,6 +10,7 @@ from .compat import is_authenticated
 from .conf import settings
 from .helpers import get_alias_from_language
 from .utils import get_model_path
+from .paginators import DiggPaginator
 
 
 class AldrynSearchView(FormMixin, ListView):

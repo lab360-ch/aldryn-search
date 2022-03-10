@@ -2,6 +2,12 @@
 Changelog
 =========
 
+1.1.1 (2022-03-10)
+==================
+* Add ``DiggPaginator`` from deprecated ``aldryn_common`` library to codebase
+* Remove ``aldryn_common`` from dependencies
+* Inspired by: https://github.com/divio/aldryn-search/issues/112
+
 
 1.1.0 (2020-02-20)
 ==================
